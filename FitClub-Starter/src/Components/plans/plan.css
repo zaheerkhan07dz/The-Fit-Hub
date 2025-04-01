@@ -1,0 +1,114 @@
+.planheader{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+    gap: 25px;
+}
+.planheader>span:nth-child(2){
+    color: white;
+}
+.plancard{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    padding: 20px;
+    background: var(--caloryCard);
+   
+}
+
+.plan:nth-child(2){
+    background: var(--planCard);
+  transform: scale(1.15);
+  fill: white;
+  
+}
+.plan>svg{
+    fill: var(--orange);
+    width: 2rem;
+    height: 2rem;
+   
+}
+
+
+.plan>span:nth-child(1){
+    display: flex;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+.plan>:nth-child(2){
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+}
+.plan>:nth-child(3){
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+}
+.features{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   gap: 15px;
+
+}
+.feature{
+    display: flex;
+    align-items: center;
+   gap: 6px;
+   font-size: 15px;
+}
+.benefits{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.benefits>img{
+   border: 0;
+   cursor: pointer;
+}
+.joinnow{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0;
+}
+.plan:nth-child(2)>svg{
+   fill: white;
+}
+.plan:nth-child(2)>button{
+    color: var(--orange);
+}
+.blur-p1{
+    height: 35rem;
+    width: 35rem;
+    left: 0;
+
+}
+.blur-p2{
+    height: 35rem;
+    width: 35rem;
+    
+    right: 0;
+
+}
+
+

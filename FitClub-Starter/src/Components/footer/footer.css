@@ -1,0 +1,44 @@
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 0;
+    gap: 50px;
+}
+.footercontainer{
+    
+}
+.logo-f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-top: 50px;
+  
+   
+}
+.effective{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.blur-blur-f1{
+    height: 15rem;
+    width: 20rem;
+    bottom: 0;
+    background: var(--orange);
+    filter: blur(200px);
+    left: 5%;
+
+ 
+}
+.blur-blur-f2{
+    height: 12rem;
+    width: 20rem;
+    bottom: 0;
+    background: red;
+    filter: blur(200px);
+    right: 0;
+ 
+}

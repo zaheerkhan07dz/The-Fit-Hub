@@ -1,0 +1,76 @@
+.left-t {
+    padding: 3rem 3rem;
+    display: flex;
+    gap: 25px;
+    flex: 1 1;
+    flex-direction: column;
+}
+.testimonial{
+    display: flex;
+}
+.left-t>span:nth-child(1){
+
+    color: var(--orange);
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.testiheading {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    gap: 20px;
+    padding-top: 35px;
+    padding-bottom: 0;
+
+}
+.left-t>span:nth-child(2){
+ 
+    padding: 30px 0;
+    width: 40rem;
+    color: white;
+    line-height: 45px;
+    font-size: 18px;
+}
+.right-t{
+    flex: 1 ;
+    position: relative;
+}
+.right-t>img{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    right: 8rem;
+    top: 2rem;
+}
+.right-t>:nth-child(1){
+    position: absolute;
+width: 17rem;height: 20rem;
+border: 2px solid orange;
+background-color:transparent;
+right: 9rem;
+top: 0.9rem;
+}
+
+.right-t>:nth-child(2){
+    position: absolute;
+width: 17rem;height: 19rem;
+background: var(--planCard);
+right: 7rem;
+top: 4rem;
+
+}
+.arrows{
+    
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 20rem;
+    right: 29rem;
+}

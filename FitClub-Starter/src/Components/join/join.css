@@ -1,0 +1,72 @@
+.left-j {
+    display: flex;
+    flex-direction: column;
+   
+    width: 36rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    gap: 20px;
+   
+    padding: 10px 40px;
+    position: relative;
+}
+.left-j>hr{
+
+    width: 28%;
+    border: 2px solid var(--orange);
+  position: relative;
+  left: -12.8rem;
+margin-bottom: -10px;
+}
+.join{
+    display: flex;
+     padding-top: 50px;
+     justify-content: start;
+     align-items: center;
+}
+.right-j{
+   float: 1;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-left: 40px;
+   
+  
+}
+.right-j>input{
+    background-color: var(--gray);
+    border: 0;
+    height: 20px;
+    width: 300px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.right-j{
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.right-j>button{
+    margin: 5px;
+
+    position: absolute;
+    right: 25px;
+  top: 7px;
+  border: 0;
+  background-color: var(--orange);
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+
